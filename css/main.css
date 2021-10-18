@@ -289,9 +289,10 @@ main {
 .wrapper {
   text-align: center;
 }
-.p1 {
+.brand {
   font-size: 45px;
   margin-top: 20px;
+  margin-bottom: 80px;
 }
 a {
   color: white;
@@ -320,8 +321,24 @@ a:hover {
   .logo {
     max-width: 50vw;
   }
-  .p1 {
+  .brand {
     font-size: 25px;
     margin-top: 15px;
   }
+}
+
+.title--venue {
+  font-size: 24px;
+  font-weight: 500;
+}
+.title--address {
+  font-size: 14px;
+}
+.title--contact {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.item--info {
+  margin-bottom: 40px;
 }
