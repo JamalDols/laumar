@@ -316,7 +316,15 @@ a:hover {
 #loader.visible {
   opacity: 1;
 }
-
+@media (max-width:768px) {
+  main {
+    height: auto;
+    
+  }
+  .logo {
+    padding-top: 120px;
+  }
+}
 @media (max-width:600px) {
   .logo {
     max-width: 50vw;
